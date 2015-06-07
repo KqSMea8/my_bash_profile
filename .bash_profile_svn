@@ -24,6 +24,7 @@ alias slh='svn log | head'
 alias shr="svn log -r COMMITTED -q --incremental | awk '\$1 ~ /r/ {print(\$1)}'"
 
 alias sr='svn revert'
+alias sra='svn revert -R .'
 
 alias srw='svn resolve --accept working'
 
@@ -36,13 +37,6 @@ function sdm {
 	    for i in `svn st | grep ! | awk '{print($2)}'`; do svn del "$i@"; done
 }
 export -f sdm;
-
-function sra {
-	    for i in `svn st -q | grep 'M' | awk '{print($2)}'`; do svn revert "$i"; done
-			    for i in `svn st -q | grep ! | awk '{print($2)}'`; do svn revert "$i"; done
-					    for i in `svn st -q | grep '@' | awk '{print($2)}'`; do svn revert "$i@"; done
-}
-export -f sra;
 
 function sbv {
 	    svn blame $1 | vim -
