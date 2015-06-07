@@ -1,0 +1,23 @@
+#ls
+alias ll='ls -l'
+alias la='ls -a'
+alias l='ls -l'
+alias lla='ls -la'
+
+#cd
+alias :='cd ..'
+alias ::='cd ../..'
+alias :::='cd ../../..'
+alias ::::='cd ../../../..'
+alias :::::='cd ../../../../..'
+alias archive='cd ~/Library/Developer/Xcode/Archives/'
+alias iOSDevicesSupport='cd ~/Library/Developer/Xcode/iOS\ DeviceSupport'
+
+#open
+alias oc='open .'
+alias op='find  . -name "*.xcodeproj" -maxdepth 1 | xargs open'
+alias ow='find  . -name "*.xcworkspace" -maxdepth 1 | xargs open'
+
+# other
+alias p='pwd'
+
