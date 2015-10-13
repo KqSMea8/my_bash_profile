@@ -13,3 +13,5 @@ do
 	fi
 done
 
+alias resource='source ~/.bash_profile'
+export PS1="\u$ "
