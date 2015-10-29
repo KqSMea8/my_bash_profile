@@ -14,4 +14,4 @@ do
 done
 
 alias resource='source ~/.bash_profile'
-export PS1="\u$ "
+export PS1="\u[\W]\$ "
