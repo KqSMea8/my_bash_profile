@@ -36,7 +36,14 @@ export -f san;
 function sdm {
 	    for i in `svn st | grep ! | awk '{print($2)}'`; do svn del "$i@"; done
 }
+
 export -f sdm;
+
+function scd {
+	    for i in `svn st | grep ? | awk '{print($2)}'`; do rm -rf "$i"; done
+}
+
+export -f scd;
 
 function sbv {
 	    svn blame $1 | vim -
