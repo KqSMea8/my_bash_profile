@@ -4,6 +4,8 @@ profilelist=(
 ~/.my_bash_profile/.bash_profile_svn
 ~/.my_bash_profile/.bash_profile_git
 ~/.my_bash_profile/.bash_profile_rake
+~/.my_bash_profile/.bash_profile_pod
+~/.my_bash_profile/.bash_profile_common
 )
 
 for file in ${profilelist[@]}
@@ -13,5 +15,4 @@ do
 	fi
 done
 
-alias resource='source ~/.bash_profile'
-export PS1="\u$ "
+
