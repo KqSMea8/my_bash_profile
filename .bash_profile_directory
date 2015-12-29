@@ -12,6 +12,7 @@ alias ::::='cd ../../../..'
 alias :::::='cd ../../../../..'
 alias archive='cd ~/Library/Developer/Xcode/Archives/'
 alias iOSDevicesSupport='cd ~/Library/Developer/Xcode/iOS\ DeviceSupport'
+alias XcodePlugin='cd ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/'
 
 #open
 alias oc='open .'

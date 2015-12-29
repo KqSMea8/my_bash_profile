@@ -9,7 +9,7 @@ alias sc='svn ci'
 
 alias ss='svn st'
 alias ssm='svn st | grep M'
-alias ssq='svn st -q'
+alias sq='svn st -q'
 alias si='svn info'
 
 alias sp='svn up'
