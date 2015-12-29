@@ -8,5 +8,6 @@ alias gd='git diff'
 alias gba='git branch -av'
 alias gbm='git checkout master'
 alias gb='git checkout'
+alias gdc='git diff --cached'
 
 
