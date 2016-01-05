@@ -10,4 +10,3 @@ alias gbm='git checkout master'
 alias gb='git checkout'
 alias gdc='git diff --cached'
 
-
