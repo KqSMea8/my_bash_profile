@@ -4,9 +4,12 @@ alias gs='git status'
 alias gc='git commit'
 alias gp='git push'
 alias ga='git add .'
+
 alias gd='git diff'
+alias gdc='git diff --cached'
+alias gdf='git diff --color | diff-so-fancy'
+
 alias gba='git branch -av'
 alias gbm='git checkout master'
 alias gb='git checkout'
-alias gdc='git diff --cached'
 
