@@ -1,0 +1,17 @@
+
+profilelist=(
+~/.my_bash_profile/bash_profile_directory
+~/.my_bash_profile/bash_profile_svn
+~/.my_bash_profile/bash_profile_git
+~/.my_bash_profile/bash_profile_pod
+~/.my_bash_profile/bash_profile_common
+~/.my_bash_profile/bash_profile_hexo
+)
+
+for file in ${profilelist[@]}
+do
+	if [ -f $file ]; then
+	   source $file
+	fi
+done
+

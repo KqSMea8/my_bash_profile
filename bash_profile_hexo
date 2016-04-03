@@ -1,0 +1,5 @@
+
+alias hg='hexo generate'
+alias hs='hexo server'
+alias hd='hexo deploy'
+

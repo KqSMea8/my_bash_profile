@@ -1,8 +1,0 @@
-
-#rake
-alias rg='rake generate'
-alias rd='rake deploy'
-alias rp='rake preview'
-alias rgp='rake generate; rake preview'
-alias rgd='rake generate; rake deploy'
-alias rgdp='rake generate; rake deploy; rake preview'
