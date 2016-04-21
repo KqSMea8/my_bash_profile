@@ -6,6 +6,7 @@ profilelist=(
 ~/.my_bash_profile/bash_profile_pod
 ~/.my_bash_profile/bash_profile_common
 ~/.my_bash_profile/bash_profile_hexo
+~/.my_bash_profile/bash_profile_xcode
 )
 
 for file in ${profilelist[@]}
