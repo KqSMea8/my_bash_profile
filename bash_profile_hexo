@@ -2,4 +2,6 @@
 alias hg='hexo generate'
 alias hs='hexo server'
 alias hd='hexo deploy'
+alias hgd='hexo generate; hexo deploy'
+alias hgs='hexo generate; hexo server'
 

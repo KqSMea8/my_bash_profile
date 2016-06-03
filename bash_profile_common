@@ -1,13 +1,1 @@
-
-function wca {
-	find . -name "*.m" -or -name "*.h" -or -name "*.xib" -or -name "*.c" -or -name "*.mm" | xargs wc -l
-}
-export -f wca
-
-function wcaa {
-find . -name "*.m" -or -name "*.h" -or -name "*.xib" -or -name "*.c" | xargs grep -v "^$" | wc -l
-}
-export -f wcaa
-
-alias resource='source ~/.bash_profile'
-export PS1="\u[\W]\$ "
+alias fa='/Users/wison/studio/github/spacecommander/format-objc-files.sh'
