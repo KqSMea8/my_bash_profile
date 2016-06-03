@@ -1,6 +1,7 @@
 
+export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer/  
+
 # symbolicatecrash
 alias sym='/Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework/Versions/A/Resources/symbolicatecrash'
 alias syv='/Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework/Versions/A/Resources/symbolicatecrash | vim -'
-export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer/  
 
