@@ -1,7 +1,6 @@
 # svn bonus
 alias s='svn st'
 alias u='svn up'
-alias d='svn di'
 
 # svn
 alias scm='svn ci -m " "'
