@@ -1,1 +1,2 @@
 alias fa='/Users/wison/studio/github/spacecommander/format-objc-files.sh'
+alias al='alias | vim -'
