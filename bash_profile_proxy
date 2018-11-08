@@ -1,0 +1,21 @@
+
+#No Proxy
+function noproxy
+{
+    unset http_proxy HTTP_PROXY https_proxy HTTPS_PROXY ALL_PROXY
+    git config --global --unset http.proxy
+    git config --global --unset https.proxy
+}
+
+#dev proxy
+function setdevproxy
+{
+        http_proxy=http://web-proxy.tencent.com:8080
+        HTTP_PROXY=$http_proxy
+        https_proxy=$http_proxy
+        HTTPS_PROXY=$http_proxy
+        ALL_PROXY=$http_proxy
+        export http_proxy https_proxy HTTP_PROXY HTTPS_PROXY ALL_PROXY
+        git config --global http.proxy http://web-proxy.tencent.com:8080
+        git config --global https.proxy http://web-proxy.tencent.com:8080
+}
