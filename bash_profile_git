@@ -13,3 +13,4 @@ alias gba='git branch -av'
 alias gbm='git checkout master'
 alias gb='git checkout'
 
+alias gsync='git pull --rebase;git push'
